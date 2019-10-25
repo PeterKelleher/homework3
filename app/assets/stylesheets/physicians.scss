@@ -1,0 +1,27 @@
+// Place all the styles related to the Physicians controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#tables {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  #tables td, #tables th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+  }
+  
+  #tables tr:nth-child(even){background-color: rgb(148, 148, 148);}
+  
+  #tables tr:hover {background-color: #ddd;}
+  
+  #tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(148, 148, 148);
+    color: white;
+  }
